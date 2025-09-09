@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+  <div class="nav-container">
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="#stack">Tech Stack</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="about">
+  <img src="profile_picture.jpg" alt="Profile Photo">
+  <h2><i class="fas fa-user"></i> About Me</h2>
+  <p>Hello! My name is <span class="highlight-name">Stanislovas Albertas Versockis</span> and I'm an aspiring Full-Stack Web Developer with experience in HTML, CSS, JavaScript, React, and Python. Completed a 364-hour FastTrack program covering frontend and backend development. Passionate about problem-solving, clean code, and learning new tools to build useful digital products.</p>
+</section>
+
+<section id="stack">
+  <h2><i class="fas fa-laptop-code"></i> My Tech Stack</h2>
+  <div class="stack-grid">
+    <div class="stack-card"><i class="fab fa-html5"></i><div class="progress-bar"><div class="progress" data-skill="45"></div></div><span class="percent">45%</span></div>
+    <div class="stack-card"><i class="fab fa-css3-alt"></i><div class="progress-bar"><div class="progress" data-skill="45"></div></div><span class="percent">45%</span></div>
+    <div class="stack-card"><i class="fab fa-js"></i><div class="progress-bar"><div class="progress" data-skill="30"></div></div><span class="percent">30%</span></div>
+    <div class="stack-card"><i class="fab fa-react"></i><div class="progress-bar"><div class="progress" data-skill="25"></div></div><span class="percent">25%</span></div>
+    <div class="stack-card"><i class="fab fa-python"></i><div class="progress-bar"><div class="progress" data-skill="40"></div></div><span class="percent">40%</span></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2><i class="fas fa-project-diagram"></i> My Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Project One</h3>
+      <p>A responsive image gallery built with HTML and CSS. First hands-on experience with front-end development, demonstrating grid-based layouts and adaptive design.</p>
+      <a href="https://github.com/whtt1/Final-Task-html-css">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Project Two</h3>
+      <p>A simple sticky notes web app built with HTML, CSS, and JavaScript. Users can create notes with optional titles, strike through text, and delete notes. Notes persist in localStorage so they remain across sessions.</p>
+      <a href="https://github.com/whtt1/Final-task">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Project Three</h3>
+      <p>A React.js to-do list app allowing task management. Practiced components and state management with a small interactive project.</p>
+      <a href="https://github.com/whtt1/final">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Project Four</h3>
+      <p>A Flask web app for validating Lithuanian phone numbers. Supports comments from logged-in and anonymous users, tracking number checks, with Python and SQLite backend.</p>
+      <a href="https://github.com/whtt1/final-task-python">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Project Five</h3>
+      <p>This project replicates the iOS calculator interface using HTML, CSS, and JavaScript. It features a responsive design, accurate arithmetic operations, and a user-friendly layout. The calculator is optimized for both desktop and mobile views, ensuring a seamless experience across devices.</p>
+      <a href="https://github.com/whtt1/calculator">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Project Six</h3>
+      <p>A sleek and interactive weather application built with Flask, HTML, CSS, and JavaScript. Users can search for any city and view the current weather along with a 5-day forecast. The app updates the URL automatically when searching and clears the input after each search, providing a seamless user experience.</p>
+      <a href="https://github.com/whtt1/flask-weather-app">View Project</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+  <p>Email: <a href="mailto:versockis.s.a@gmail.com">versockis.s.a@gmail.com</a></p>
+  <p>Phone: +370 609 57825</p>
+  <div class="contact-links">
+    <a href="https://github.com/whtt1" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/stanislovas-albertas-versockis" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
